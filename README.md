@@ -47,3 +47,30 @@
         --continue -> continua o rebase
         --abort -> cancela o rebase
         --skip -> pula o commit atual
+
+* comando git log
+    - `git log --graph --oneline --decorate --all`
+        -> mostra o log de forma gráfica
+
+
+## Stash
+* comando git stash
+    - `git stash`
+        -> salva as alterações em um stash
+    - `git stash list`
+        -> mostra a lista de stashes
+    - `git stash apply`
+        -> aplica o último stash
+    - `git stash apply stash@{<numero do stash>}`
+        -> aplica o stash especificado
+    - `git stash drop`
+        -> deleta o último stash
+    - `git stash drop stash@{<numero do stash>}`
+        -> deleta o stash especificado
+    - `git stash pop`
+        -> aplica o último stash e o deleta
+    - `git stash pop stash@{<numero do stash>}`
+        -> aplica o stash especificado e o deleta
+    - `git stash clear`
+        -> deleta todos os stashes
+
