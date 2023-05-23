@@ -74,3 +74,4 @@
     - `git stash clear`
         -> deleta todos os stashes
 
+<script src="https://gist.github.com/dgeison/ba717286bdec15589835eb489790d5fd.js"></script>
